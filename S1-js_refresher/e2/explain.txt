@@ -1,0 +1,64 @@
+
+// test1.js:
+
+const people = {
+    name: `Max`
+}
+
+export default people
+
+>>>>>>>OR
+
+
+export default const people = {
+   name: `Max`
+}
+
+
+// test2.js:
+
+export const myFunction = () => {...}
+export const myRandomValue = 15;
+
+
+// app.js:
+
+import people from './person.js'
+>>>> OR
+import pp from './person.js'
+
+import {myFunction} from './test2.js'
+import {myRandomValue} from './test2.js'
+import * as test from './test2.js'
+
+test.myRandomValue
+test.myFunction
+
+
+
+
+// classes
+
+class Test {
+    name = `asghar` //property
+    const akbar = () => {...} //method
+}
+
+const testVar = new Test()
+testVar.name
+
+class Test2 extends Test {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
