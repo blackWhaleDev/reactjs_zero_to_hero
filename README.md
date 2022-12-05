@@ -4,7 +4,7 @@
 > 
 - ###### JS refresher
     - let - const - arrow function variable types - Done [Video Link](https://www.youtube.com/watch?v=bAp29-F-RE0 "react.js s01 e01- js refresher let const types arrow function")
-    - Import/Export
+    - Import/Export and class - Done [Video Link](https://youtu.be/ve-TbSLK4Dc "react.js s01 e02- js refresher import/export class")
 - ###### React basic and working with component
 - ###### State and Events
 - ###### List Rendering and Conditional contents
