@@ -1,0 +1,29 @@
+//properties are like variables
+
+ES6:
+constructor(){
+    this.myProperty = 'value'
+}
+
+ES7:
+myProperty = 'value'
+
+//methods are like functions
+
+ES6:
+myMethod(){...}
+
+ES7:
+myMethod = () => {...}
+
+
+
+
+>>>> SPREAD and REST operators
+"..."
+
+
+spread: use for split up array elements or object properties
+
+rest: merge a list of function arguments into an array
+
