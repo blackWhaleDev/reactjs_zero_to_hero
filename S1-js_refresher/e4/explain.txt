@@ -1,0 +1,19 @@
+>> Destructuring
+
+array:
+[a, b, ...] = ['ali', 'asghar', ...]
+
+obj:
+{name} = {name: 'sara', age: 21, test: 'mamad'}
+
+>> Primitive types
+
+primitive = {STRING, NUMBER, BOOLEAN, SYMBBOL, UNDEFIEND, NULL}
+non-primitive = {ARRAY, OBJECT, FUNCTION}
+
+>> array/obj functions
+array:
+[...].map((arrayItem) => {...})
+obj:
+Object.keys({...})
+Object.values({...})
